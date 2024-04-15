@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./stylesheets.css">
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    </style>
+  </head>
+  <body>
+    <main class="main calculator">
+        <div class="calculator_user-input">
+          <div class="calculator_input-block input-block">
+            <p class="input-block_text">DAY</p>
+            <input
+              class="input-block_input input-days"
+              type="number"
+              placeholder="DD"
+              min="1"
+            />
+          </div>
+          <div class="calculator_input-block input-block">
+            <p class="input-block_text">MONTH</p>
+            <input
+              class="input-block_input input-months"
+              type="number"
+              placeholder="MM"
+              min="1"
+            />
+          </div>
+          <div class="calculator_input-block input-block">
+            <p class="input-block_text">YEAR</p>
+            <input
+              class="input-block_input input-years"
+              type="number"
+              placeholder="YYYY"
+              min="1"
+            />
+          </div>
+          <button class="calculator_user-input-btn"></button>
+        </div>
+        <div class="calculator_output output">
+          <div class="output_text output-years"><span>- -</span>years</div>
+          <div class="output_text output-months"><span>- -</span>months</div>
+          <div class="output_text output-days"><span>- -</span>days</div>
+        </div>
+    </main>
+   
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Adrift dreamer</a>.
+    </div>
+  </body>
+</html>
